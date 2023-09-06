@@ -11,7 +11,9 @@
     <body>
         <header class="header">
             <h1>Giselle's Portfolio</h1>
-            <img src="./assets/images/developer.png" alt="Developer Avatar" class="avatar">
+            <div>
+                <img src="./assets/images/developer.png" alt="Developer Avatar"/>
+            </div>
             <nav class="tabs">
                 <ul>
                     <li><a href="#about-me">About Me</a></li>
@@ -21,18 +23,53 @@
             </nav>
         </header>
         <section class="about-me">
-            <h2>About Me</h2>
-            <div>
+            <h2 id="about-me">About Me</h2>
                 <p>
                     Hello, I am a new web developer excited to learn new things and be able to demonstrate my knowledge in this tech career. I really enjoy problem solving and look forward to new challanges.
                 </p>
-            </div>
         </section>
         <section>
-            <h2>Work</h2>
+            <h2 id="work">Work</h2>
+            <div class="cards">
+                <div class="container">
+                    <a href="https://gtorresv.github.io/prework-study-guide/">
+                        <img id="prework-study-guide" src="./assets/images/prework-study-guide.png" alt="Prework study guide website screenshot">
+                        <div class="text-block">
+                            <h4>Prework Study Guide</h4>
+                        </div>
+                    </a>
+                </div>
+               
+                <div class="container">
+                    <a href="#">
+                        <img src="https://picsum.photos/id/219/350/350" alt="A leopard">
+                        <div class="text-block">
+                            <h4>Leopard</h4>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="container">
+                    <a href="#">
+                        <img src="https://picsum.photos/id/196/350/350" alt="A Jeep driving on sand dunes">
+                        <div class="text-block">
+                            <h4>Sand Dunes</h4>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="container">
+                    <a href="#">
+                        <img src="https://picsum.photos/id/818/350/350" alt="The Statue of Liberty">
+                        <div class="text-block">
+                            <h4>Statue of Liberty</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </section>
         <section class="contact-me">
-            <h2>Contact Me</h2>
+            <h2 id="contact-me">Contact Me</h2>
             <ul>
                 <li><a href="#">555-5555</a></li>
                 <li><a href="#">email@email.com</a></li>
