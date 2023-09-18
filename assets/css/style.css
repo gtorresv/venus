@@ -107,6 +107,26 @@ section div img:hover {
     height: 360px;
 }
 
+#plant-protector {
+    width: 350px;
+    height: 350px;
+}
+
+#plant-protector:hover {
+    width: 360px;
+    height: 360px;
+}
+
+#employee-management {
+    width: 350px;
+    height: 350px;
+}
+
+#employee-management:hover {
+    width: 360px;
+    height: 360px;
+}
+
 .contact-me ul {
     display: flex;
     flex-direction: row;
